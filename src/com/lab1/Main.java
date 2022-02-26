@@ -1,13 +1,13 @@
 package com.lab1;
-import java.io.*;
-import java.util.concurrent.TimeUnit;
+//import java.io.*;
+//import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args) /*throws IOException*/
     {
 	    System.out.println("ohayo!");
-        BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
+/*        BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
 
         try {
             TimeUnit.SECONDS.sleep(10);
@@ -16,6 +16,6 @@ public class Main {
 
         }
         System.out.println("Input: ");
-        int a = Integer.parseInt(b.readLine());
+        int a = Integer.parseInt(b.readLine());*/
     }
 }
