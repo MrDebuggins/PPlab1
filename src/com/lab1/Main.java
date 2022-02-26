@@ -7,6 +7,6 @@ public class Main {
     {
 	    System.out.println("ohayo!");
         BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(b.readLine());
+        //int a = Integer.parseInt(b.readLine());
     }
 }
