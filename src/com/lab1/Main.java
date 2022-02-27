@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
 	    System.out.println("Start running...");
         try
@@ -15,7 +15,6 @@ public class Main {
             Scanner scan = new Scanner(obj);
             String str = scan.nextLine();
             System.out.println(str);
-            //System.out.println(obj.getAbsolutePath());
         }catch (FileNotFoundException e)
         {
             System.out.println("File not found!");
