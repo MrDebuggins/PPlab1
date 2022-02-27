@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args)
     {
-	    System.out.println("ohayo senpai!");
+	    System.out.println("ohayo!");
         Scanner scan = new Scanner(System.in);
         System.out.println("input: ");
         int i = scan.nextInt();
