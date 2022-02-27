@@ -16,9 +16,11 @@ public class Main {
             Scanner scan = new Scanner(obj);
             String str = scan.nextLine();
             System.out.println(str);
+            scan.nextLine();
         }catch (FileNotFoundException e)
         {
             System.out.println("File not found!");
         }
+
     }
 }
