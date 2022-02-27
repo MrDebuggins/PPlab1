@@ -1,14 +1,24 @@
 package com.lab1;
-//import java.util.Scanner;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args)
     {
-	    System.out.println("ohayo senpai!");
-        //Scanner scan = new Scanner(System.in);
-        System.out.println("input: ");
-        int i = Integer.parseInt(args[0]);
-        System.out.println("i = " + i);
+	    System.out.println("Start running...");
+        try
+        {
+            File obj = new File("text.txt");
+            Scanner scan = new Scanner(obj);
+            String str = scan.nextLine();
+            System.out.println(str);
+            //System.out.println(obj.getAbsolutePath());
+        }catch (FileNotFoundException e)
+        {
+            System.out.println("File not found!");
+        }
     }
 }
