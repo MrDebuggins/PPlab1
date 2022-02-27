@@ -16,6 +16,7 @@ public class Main {
             Scanner scan = new Scanner(obj);
             String str = scan.nextLine();
             System.out.println(str);
+            scan = new Scanner(System.in);
             scan.nextLine();
         }catch (FileNotFoundException e)
         {
