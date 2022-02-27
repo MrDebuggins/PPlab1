@@ -11,7 +11,7 @@ public class Main {
 	    System.out.println("Start running...");
         try
         {
-            File obj = new File("src/text.txt");
+            File obj = new File("text.txt");
             //obj.createNewFile();
             Scanner scan = new Scanner(obj);
             String str = scan.nextLine();
