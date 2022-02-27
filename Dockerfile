@@ -1,5 +1,4 @@
 FROM openjdk:11
 RUN git clone https://github.com/MrDebuggins/PPlab1.git
-RUN mkdir /home/sampleTest \
-WORKDIR /home/sampleTest/out
-CMD java -classpath production/untitled104/com.lab1.Main
+WORKDIR /PPlab1/out/production/untitled104
+CMD java com.lab1.Main
